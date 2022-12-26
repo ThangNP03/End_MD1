@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+    margin: auto;
+}
+
+.container-fluid{
+    width: 1400px;
+}
+/*Header*/
+.nav-header{
+    background-color: #97212d !important;
+    position: fixed;
+    top: 0;
+    width:100%;
+    z-index: 1;
+    align-items: center;
+}
+
+.text-item{
+    color:#fff !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+.login{
+    margin-left: 10px;
+}
+.knot{
+    box-shadow: none;
+}
+.shared{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.shared-login{
+    margin-left: 20px;
+}
+.register{
+    margin-right: 20px;
+}
+.shared:hover{
+    color:yellow;
+}
+/*section home*/
+
+.over{
+    background-color: #333333;
+    height: 250px;
+    width: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.position-image{
+    width: 250px;
+    width: 330px;
+    transition: 1s;
+}
+
+.position-image:hover{
+
+    transform: scale(1.1
+    ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.btn-name{
+    color: #fff;
+    position: absolute;
+    top: 10px
+}
+#areaInfo div .dropdown-menu{
+    z-index: 2;
+}
+/*section first team*/
+.team{
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 2em;
+    margin-top: 1em;
+    color: black;
+
+}
+.text-content{
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-bottom: solid rgb(216, 216, 216) 1px ;
+    width: 90%;
+    font-weight: bold;
+    margin-left: 70px;
+    /*margin-top: 20px;*/
+    margin-bottom: 60px;
+}
+.position-info{
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 15px;
+    color: #fff;
+    /*bottom: 10%;*/
+    /*left: 10%;*/
+}
+.position-number::after{
+    display: block;
+    content: " ";
+    height: 1px;
+    width: 20px;
+    background-color: red;
+    transition: 1s;
+}
+.position-number{
+    font-size: 10px
+}
+.position-name{
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    width: 50%;
+    font-size: 20px;
+    margin-top: -80px;
+    margin-left: 15px;
+}
+.position-names{
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    width: 50%;
+    font-size: 20px;
+    margin-top: -110px;
+    margin-left: 15px;
+}
+.position-infos{
+    position: absolute;
+    margin-top: -130px;
+    margin-left: 15px;
+    color: #fff;
+}
+/*sectiom coach*/
+.coach{
+    background-color: #3f3f3f;
+}
+.role{
+    margin-top: 80px;
+    font-weight: bold;
+    padding-bottom: 1em;
+    font-size: 1.9em;
+    position: relative;
+    color: #fff;
+}
+.role-name {
+    margin-top: 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+.being{
+    margin-top: 60px;
+    color: #fff;
+    line-height: 40px;
+    font-style: italic;
+    font-weight: lighter;
+}
+/*footer*/
+.bottom-web{
+    background-color: #97212d;
+}
+.text-footer{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.text-item-footer{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
