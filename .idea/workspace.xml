@@ -6,13 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7c78b00b-3c3b-48e4-9d6b-681918c57c74" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introduce.css" beforeDir="false" afterPath="$PROJECT_DIR$/introduce.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introduce.html" beforeDir="false" afterPath="$PROJECT_DIR$/introduce.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introduce.js" beforeDir="false" afterPath="$PROJECT_DIR$/introduce.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/player.html" beforeDir="false" afterPath="$PROJECT_DIR$/player.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploadfide/player.html" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfide/player.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -46,11 +41,15 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Sản phẩm bài học\Web_Demo_MD1\model" />
+      <recent name="D:\Sản phẩm bài học\Web_Demo_MD1\uploadfide" />
+      <recent name="D:\Sản phẩm bài học\Web_Demo_MD1\Login" />
       <recent name="D:\Sản phẩm bài học\Web_Demo_MD1" />
     </key>
   </component>
@@ -62,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672201328727</updated>
-      <workItem from="1672201329848" duration="608000" />
+      <workItem from="1672201329848" duration="3457000" />
     </task>
     <servers />
   </component>
