@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e050f05-d589-482e-a045-4c0554c95e24" name="Changes" comment="">
+    <list default="true" id="7c78b00b-3c3b-48e4-9d6b-681918c57c74" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduce.css" beforeDir="false" afterPath="$PROJECT_DIR$/introduce.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/introduce.html" beforeDir="false" afterPath="$PROJECT_DIR$/introduce.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduce.js" beforeDir="false" afterPath="$PROJECT_DIR$/introduce.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/player.html" beforeDir="false" afterPath="$PROJECT_DIR$/player.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/player.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +22,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -32,35 +32,37 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2JQr5sdkS6FTNKohu2Tx39lyDIL" />
+  <component name="ProjectId" id="2JWkfNWSPdbwTB7BEVNldCKChDz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Sản phẩm bài học\Web_Demo_MD1" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1e050f05-d589-482e-a045-4c0554c95e24" name="Changes" comment="" />
-      <created>1672020967884</created>
+      <changelist id="7c78b00b-3c3b-48e4-9d6b-681918c57c74" name="Changes" comment="" />
+      <created>1672201328727</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1672020967884</updated>
-      <workItem from="1672020969047" duration="20145000" />
+      <updated>1672201328727</updated>
+      <workItem from="1672201329848" duration="608000" />
     </task>
     <servers />
   </component>

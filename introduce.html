@@ -22,7 +22,7 @@
             <a class="nav-link text-item" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-item" href="player.html">More players</a>
+            <a class="nav-link text-item" href="uploadfide/player.html">More players</a>
           </li>
 
           <li class="nav-item">
@@ -52,8 +52,8 @@
 <!--End section Home-->
 
 <div class="container">
-  <div class="row ">
-    <div class="col-3 over d-flex" id="drawTable"></div>
+  <div class="row" id="drawTable">
+
   </div>
 </div>
 <!-- Footer -->
@@ -160,7 +160,7 @@
       else {
         classTr = 'table-success'
       }
-      drawTable += `<div class="${classTr}">
+      drawTable += `<div class="${classTr} col-6 col-md-3">
 
                              <div class="position-image">
                                 <img class="image" src="${listStudent[i].image}" alt="Ảnh cầu thủ  " width="200" height="200">
@@ -199,7 +199,7 @@
     location.href = "login.html"
   }
 </script>
-<script src="introduce.js"></script>
+<script src="model/introduce.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

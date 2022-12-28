@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+  <meta charset="UTF-8">
+  <title>Title</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
           crossorigin="anonymous"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
   <link rel="stylesheet" href="player.css">
+
 </head>
 <body>
 <!--Start Header-->
 <header>
   <nav class="navbar navbar-expand-lg navbar-light nav-header">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="img/logoMcity-removebg-preview.png" height="47" width="67"/></a>
+      <a class="navbar-brand" href="#"><img src="../img/logoMcity-removebg-preview.png" height="47" width="67"/></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link text-item" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link text-item" aria-current="page" href="../index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-item" href="player.html">More players</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link text-item" href="introduce.html" >Introduce</a>
+            <a class="nav-link text-item" href="../introduce.html" >Introduce</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-item" href="#" >About</a>
@@ -40,8 +42,8 @@
           </li>
         </ul>
         <form id="areaInfo" class="d-flex dropdown">
-          <a href="rigister.html"  class="shared register">REGISTER</a>
-          <a href="login.html"  class="shared">LOGIN</a>
+          <a href="../rigister.html" class="shared register">REGISTER</a>
+          <a href="../login.html" class="shared">LOGIN</a>
         </form>
       </div>
     </div>
@@ -51,7 +53,7 @@
 <!--End header-->
 <!--Start section Home-->
 <section class="view-content">
-  <div class="bg-image"><img src="img/mancity.jpg" height="100%" width="100%"></div>
+  <div class="bg-image"><img src="../img/mancity.jpg" height="100%" width="100%"></div>
 </section>
 <!--End section Home-->
 <!--Start section first team-->
@@ -62,7 +64,7 @@
         <div class="team">FIRST TEAM</div>
         <div class="text-content">goalkeepers</div>
         <div class="over number">
-          <img class="position-image" src="img/1-ederson.jpg" alt="ảnh lỗi">
+          <img class="position-image" src="../img/1-ederson.jpg" alt="ảnh lỗi">
           <div class="position-info">
             <div class="position-number">
               26
@@ -76,7 +78,7 @@
       <div class="text-content">DEFENDERS</div>
       <div class ="col-3">
         <div class="over number">
-          <img class="position-image" src="img/rubendias.jpg" alt="ảnh lỗi">
+          <img class="position-image" src="../img/rubendias.jpg" alt="ảnh lỗi">
           <div class="position-infos">
             <div class="position-number">
               29
@@ -89,7 +91,7 @@
       </div>
       <div class ="col-3">
         <div class="over number">
-          <img class="position-image" src="img/ferran-torres.jpg" alt="ảnh lỗi">
+          <img class="position-image" src="../img/ferran-torres.jpg" alt="ảnh lỗi">
           <div class="position-infos">
             <div class="position-number">
               2
@@ -102,7 +104,7 @@
       </div>
       <div class ="col-3">
         <div class="over number">
-          <img class="position-image" src="img/simva.jpg" alt="ảnh lỗi">
+          <img class="position-image" src="../img/simva.jpg" alt="ảnh lỗi">
           <div class="position-infos">
             <div class="position-number">
               5
@@ -115,7 +117,7 @@
       </div>
       <div class ="col-3">
         <div class="over number">
-          <img class="position-image" src="img/mahrez.jpg" alt="ảnh lỗi">
+          <img class="position-image" src="../img/mahrez.jpg" alt="ảnh lỗi">
           <div class="position-infos">
             <div class="position-number">
               25
@@ -129,7 +131,7 @@
       <div class="text-content">MIDFIELDERS</div>
       <div class ="col-4">
         <div class="over number">
-          <img class="position-image" src="img/de-bruyne.jpg" alt="ảnh lỗi">
+          <img class="position-image" src="../img/de-bruyne.jpg" alt="ảnh lỗi">
           <div class="position-infos">
             <div class="position-number">
               39
@@ -142,7 +144,7 @@
       </div>
       <div class ="col-4">
         <div class="over number">
-          <img class="position-image" src="img/phuden.jpg" alt="ảnh lỗi">
+          <img class="position-image" src="../img/phuden.jpg" alt="ảnh lỗi">
           <div class="position-infos">
             <div class="position-number">
               18
@@ -155,7 +157,7 @@
       </div>
       <div class ="col-4">
         <div class="over number">
-          <img class="position-image" src="img/simva.jpg" alt="ảnh lỗi">
+          <img class="position-image" src="../img/simva.jpg" alt="ảnh lỗi">
           <div class="position-infos">
             <div class="position-number">
               6
@@ -169,7 +171,7 @@
       <div class="text-content">MIDFIELDERS</div>
       <div class ="col-4">
         <div class="over number">
-          <img class="position-image" src="img/de-bruyne.jpg" alt="ảnh lỗi">
+          <img class="position-image" src="../img/de-bruyne.jpg" alt="ảnh lỗi">
           <div class="position-infos">
             <div class="position-number">
               25
@@ -182,7 +184,7 @@
       </div>
       <div class ="col-4">
         <div class="over number">
-          <img class="position-image" src="img/phuden.jpg" alt="ảnh lỗi">
+          <img class="position-image" src="../img/phuden.jpg" alt="ảnh lỗi">
           <div class="position-infos">
             <div class="position-number">
               7
@@ -195,7 +197,7 @@
       </div>
       <div class ="col-4">
         <div class="over number">
-          <img class="position-image" src="img/mahrez.jpg" alt="ảnh lỗi">
+          <img class="position-image" src="../img/mahrez.jpg" alt="ảnh lỗi">
           <div class="position-infos">
             <div class="position-number">
               7
@@ -216,7 +218,12 @@
 <div class="container">
   <div class="row">
     <h2 class="list">Danh sách thêm các cầu thủ</h2>
+
     <div class="rounded col-12" style="background-color: #199bc4; text-align: center; margin: 20px 20px 20px 20px">
+      <div>
+        <progress value="0" max="100" id="uploader">0%</progress>
+        <input type="file" value="upload" accept=".jpg" id="fileButton">
+      </div>
       <div class="input-group mb-3 mt-3">
         <input type="text" id="name" class="form-control" placeholder="Name..." aria-label="Recipient's username" aria-describedby="basic-addon2">
         <span class="input-group-text" >Name</span>
@@ -224,10 +231,6 @@
       <div class="input-group mb-3">
         <input type="number"  id="age" class="form-control" placeholder="Age..." aria-label="Recipient's username" aria-describedby="basic-addon2">
         <span class="input-group-text" >Age</span>
-      </div>
-      <div class="input-group mb-3">
-        <input type="text"  id="image" class="form-control" placeholder="Image..." aria-label="Recipient's username" aria-describedby="basic-addon2">
-        <span class="input-group-text" >Image</span>
       </div>
       <button class="btn btn-success mb-3" onclick="creatStudent()">Creat Player <i style="color: #fff" class="bi bi-node-plus"></i></button>
 
@@ -267,6 +270,10 @@
             <label class="col-form-label">Update Age</label>
             <input type="text" class="form-control" id="update_age">
           </div>
+          <div class="mb-3">
+            <label class="col-form-label">Update Age</label>
+            <input type="text" class="form-control" id="update_image">
+          </div>
 
         </form>
       </div>
@@ -294,102 +301,13 @@
   </div>
 </div>
 <!--END MODAL DELETE-->
-<!-- Footer -->
-<footer class="text-center text-lg-start bg-white text-muted " >
-  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom bottom-web">
-    <div>
-      <a href="" class="me-4 link-secondary">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="" class="me-4 link-secondary">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="" class="me-4 link-secondary">
-        <i class="fab fa-google"></i>
-      </a>
-      <a href="" class="me-4 link-secondary">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="" class="me-4 link-secondary">
-        <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="" class="me-4 link-secondary">
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
-    <div class="container text-center text-md-start mt-5">
-      <div class="row mt-3">
-        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-          <h6 class="text-uppercase fw-bold mb-4 text-item">
-            <i class="fas fa-gem me-3 text-secondary"></i>Company name
-          </h6>
-          <p class ="text-footer">
-            Here you can use rows and columns to organize your footer content. Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit.
-          </p>
-        </div>
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-          <h6 class="text-uppercase fw-bold mb-4 text-item">
-            Products
-          </h6>
-          <p>
-            <a href="#!" class="text-item-footer">Angular</a>
-          </p>
-          <p>
-            <a href="#!" class="text-item-footer">React</a>
-          </p>
-          <p>
-            <a href="#!" class="text-item-footer">Vue</a>
-          </p>
-          <p>
-            <a href="#!" class="text-item-footer">Laravel</a>
-          </p>
-        </div>
-
-         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-          <h6 class="text-uppercase fw-bold mb-4 text-item">
-            Useful links
-          </h6>
-          <p>
-            <a href="#!" class="text-item-footer">Pricing</a>
-          </p>
-          <p>
-            <a href="#!" class="text-item-footer">Settings</a>
-          </p>
-          <p>
-            <a href="#!" class="text-item-footer">Orders</a>
-          </p>
-          <p>
-            <a href="#!" class="text-item-footer">Help</a>
-          </p>
-        </div>
-
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-          <h6 class="text-uppercase fw-bold mb-4 text-item">Contact</h6>
-          <p class ="text-item-footer"><i class="fas fa-home me-3 "></i> New York, NY 10012, US</p>
-          <p class="text-item-footer">
-            <i class="fas fa-envelope me-3 "></i>
-            info@example.com
-          </p>
-          <p class="text-item-footer"><i class="fas fa-phone me-3 "></i> + 01 234 567 88</p>
-          <p class="text-item-footer"><i class="fas fa-print me-3 "></i> + 01 234 567 89</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <div class="text-center p-4 bottom-web text-item-footer" >
-    © 2021 Copyright:
-    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-  </div>
-</footer>
-<!-- Footer -->
 
 
 <!--Start script delete-->
 <script>
-
+  let idUser = parseInt(localStorage.getItem('idKey'));
   let listStudent = JSON.parse(localStorage.getItem('list_student'))
-  if(listStudent==null){
+  if(listStudent== null ){
     listStudent = [];
   }
   function showlistStudent() {
@@ -406,9 +324,8 @@
                              <td>${i+1}</td>
                              <td>${listStudent[i].name}</td>
                              <td>${listStudent[i].age}</td>
-                             <th>
-                                <img src="${listStudent[i].image}" alt="Ảnh cầu thủ  " width="50" height="50">
-                             </th>
+
+                             <td><img style="width: auto;height: 50px;border-radius: 8%;" src="${listStudent[i].image}" alt="Ảnh lỗi"></td>
                              <td><button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="${listStudent[i].name}"
                               onclick="showUpdateModal(${listStudent[i].id})"><i class="bi bi-pen-fill"></i></button></td>
                                <td class="btn-change"><button  class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModalDelete"
@@ -421,15 +338,17 @@
   showlistStudent();
   function creatStudent() {
     let id = 0;
+    let image = getImage();
+    console.log("======",image)
     let name = document.getElementById('name').value;
     let age = + document.getElementById('age').value;
-    let image = document.getElementById('image').value
+
     if (listStudent.length === 0){
       id = 1;
     }else{
       id= listStudent[listStudent.length-1].id + 1;
     }
-    let student = new Student(id,name,age,image);
+    let student = new Student(id,name,age,image,idUser);
     listStudent.push(student);
     localStorage.removeItem('list_student')
     localStorage.setItem('list_student',JSON.stringify(listStudent))
@@ -449,16 +368,19 @@
     let student = findById(id)
     document.getElementById('update_name').value = student.name
     document.getElementById('update_age').value = student.age
+    document.getElementById('update_image').value = student.image
   }
 
   function upDateStudent() {
     let updateStudent = findById(idUpdate)
     let upDateName = document.getElementById('update_name').value
+    let upDateImage  = document.getElementById('update_image').value ;
     console.log('updateName --->')
     let upDateAge = document.getElementById('update_age').value
     updateStudent.name = upDateName
     console.log(updateStudent)
     updateStudent.age = upDateAge
+    upDateImage.image = upDateImage
     localStorage.removeItem('list_student');
     localStorage.setItem('list_student', JSON.stringify(listStudent));
     showlistStudent();
@@ -482,7 +404,7 @@
   let div = document.getElementById("areaInfo");
   let user = JSON.parse(localStorage.getItem("user"))
   if (user != null){
-    div.innerHTML = `<a class="nav-link dropdown-toggle" style=" color:#fff !important;
+    div.innerHTML = `<a class="nav-link dropdown-toggle" style=" color:#fff ;
     font-size: 20px;
     font-weight: bold;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             ${user.name}
@@ -502,57 +424,57 @@
   }
 </script>
 <script>
-let idDelete = 0;
-function showModalDelete(id) {
-idDelete = id;
-}
-function deleteStudent() {
-for (let i = 0; i < listStudent.length; i++) {
-if(listStudent[i].id===idDelete){
-listStudent.splice(i,1)
-}
-}
-localStorage.removeItem('list_student')
-localStorage.setItem('list_student', JSON.stringify(listStudent));
-  showlistStudent()
-}
-//JS MODAL EDIT
-var exampleModal = document.getElementById('exampleModal')
-exampleModal.addEventListener('show.bs.modal', function (event) {
+  let idDelete = 0;
+  function showModalDelete(id) {
+    idDelete = id;
+  }
+  function deleteStudent() {
+    for (let i = 0; i < listStudent.length; i++) {
+      if(listStudent[i].id===idDelete){
+        listStudent.splice(i,1)
+      }
+    }
+    localStorage.removeItem('list_student')
+    localStorage.setItem('list_student', JSON.stringify(listStudent));
+    showlistStudent()
+  }
+  //JS MODAL EDIT
+  var exampleModal = document.getElementById('exampleModal')
+  exampleModal.addEventListener('show.bs.modal', function (event) {
 // Button that triggered the modal
-var button = event.relatedTarget
+    var button = event.relatedTarget
 // Extract info from data-bs-* attributes
-var recipient = button.getAttribute('data-bs-whatever')
+    var recipient = button.getAttribute('data-bs-whatever')
 // If necessary, you could initiate an AJAX request here
 // and then do the updating in a callback.
 //
 // Update the modal's content.
-var modalTitle = exampleModal.querySelector('.modal-title')
-var modalBodyInput = exampleModal.querySelector('.modal-body input')
-console.log('check data modal ====> ', recipient.name)
-modalTitle.textContent = 'Update Student: ' + recipient
-modalBodyInput.value = recipient
-})
+    var modalTitle = exampleModal.querySelector('.modal-title')
+    var modalBodyInput = exampleModal.querySelector('.modal-body input')
+    console.log('check data modal ====> ', recipient.name)
+    modalTitle.textContent = 'Update Student: ' + recipient
+    modalBodyInput.value = recipient
+  })
 
-//JS MODAL DELETE
-var exampleModalDelete = document.getElementById('exampleModalDelete')
-exampleModalDelete.addEventListener('show.bs.modal', function (event) {
+  //JS MODAL DELETE
+  var exampleModalDelete = document.getElementById('exampleModalDelete')
+  exampleModalDelete.addEventListener('show.bs.modal', function (event) {
 // Button that triggered the modal
-var button = event.relatedTarget
+    var button = event.relatedTarget
 // Extract info from data-bs-* attributes
-var recipient = button.getAttribute('data-bs-whatever')
+    var recipient = button.getAttribute('data-bs-whatever')
 // If necessary, you could initiate an AJAX request here
 // and then do the updating in a callback.
 //
 // Update the modal's content.
-var modalTitle = exampleModalDelete.querySelector('.modal-title')
-var modalBodyInput = exampleModalDelete.querySelector('.modal-body input')
-console.log('check data modal ====> ', recipient.name)
-modalTitle.textContent = 'Are you sure Delete:  ' + recipient + '?'
-modalBodyInput.value = recipient
-})
+    var modalTitle = exampleModalDelete.querySelector('.modal-title')
+    var modalBodyInput = exampleModalDelete.querySelector('.modal-body input')
+    console.log('check data modal ====> ', recipient.name)
+    modalTitle.textContent = 'Are you sure Delete:  ' + recipient + '?'
+    modalBodyInput.value = recipient
+  })
 </script>
-<script src="introduce.js"></script>
+<script src="../model/introduce.js"></script>
 <script src="player.js"></script>
 </body>
 </html>

@@ -1,5 +1,3 @@
-
-
     let username;
     let password;
     let checkValidate = false;
