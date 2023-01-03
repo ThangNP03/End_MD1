@@ -60,6 +60,7 @@ body{
 .position-number{
     font-size: 10px
 }
+
 .position-name{
     color: #fff;
     text-transform: uppercase;
@@ -91,6 +92,7 @@ body{
     font-size: 40px;
     font-weight: bold;
 }
+
 /*footer*/
 .bottom-web{
     background-color: #199bc4;
